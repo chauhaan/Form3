@@ -1,4 +1,4 @@
-FROM golang:rc-stretch
+FROM golang:1.18.1-stretch
 
 COPY ./ /src
 WORKDIR /src
